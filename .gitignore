@@ -1,12 +1,9 @@
-# Ignore build outputs everywhere
 **/target/
 
-# Ignore these folders completely (ei GitHubiin)
 raportti/
 rust_kirjat/
 rust_testi/
 
-# (Optional) yleisiä juttuja joita et halua committiin
 **/*.exe
 **/*.log
 **/.DS_Store
