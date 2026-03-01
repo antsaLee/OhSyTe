@@ -1,11 +1,12 @@
-# Ignore everything by default
-*
-
-# Allow only this task
-!.gitignore
-!viikko6/
-!viikko6/today2/
-!viikko6/today2/**
-
-# Never include Rust build output
+# Ignore build outputs everywhere
 **/target/
+
+# Ignore these folders completely (ei GitHubiin)
+raportti/
+rust_kirjat/
+rust_testi/
+
+# (Optional) yleisiä juttuja joita et halua committiin
+**/*.exe
+**/*.log
+**/.DS_Store
