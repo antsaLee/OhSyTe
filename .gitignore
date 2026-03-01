@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow only this task
+!.gitignore
+!viikko6/
+!viikko6/today2/
+!viikko6/today2/**
+
+# Never include Rust build output
+**/target/
